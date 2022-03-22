@@ -5,6 +5,7 @@ public class Empregado extends Pessoa {
 	private double salarioBase;
 	private double imposto;
 
+	//metodo construtor
 	public Empregado(String nome, String endereco, String telefone, int codigoSetor, double salarioBase,
 			double imposto) {
 		super(nome, endereco, telefone);
@@ -13,6 +14,7 @@ public class Empregado extends Pessoa {
 		this.imposto = imposto;
 	}
 
+	//metodos get e set: para retornar e setar valores
 	double calcularSalario() {
 		return salarioBase - imposto;
 

@@ -9,6 +9,8 @@ public class Pessoa {
 	public Pessoa() {
 		super();
 	}
+	
+	//metodo construtor 
 
 	public Pessoa(String nome, String endereco, String telefone) {
 		super();
@@ -16,11 +18,12 @@ public class Pessoa {
 		this.endereco = endereco;
 		this.telefone = telefone;
 	}
-
+	
+	//metodo para retornar o valor
 	public String getNome() {
 		return nome;
 	}
-
+	//metodo para setar(adicionar) valores
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
